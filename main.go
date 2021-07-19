@@ -27,7 +27,7 @@ func convert(uidInput int64) string {
 
 //export RVExtensionVersion
 func RVExtensionVersion(output *C.char, outputsize C.size_t) {
-	result := C.CString("uid to guid by FairyTale5571 v1.0")
+	result := C.CString("uid2guid v1.1")
 	defer C.free(unsafe.Pointer(result))
 	var size = C.strlen(result) + 1
 	if size > outputsize {
