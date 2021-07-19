@@ -2,7 +2,7 @@
 convert UID to GUID for arma 3
 
 Usage 
-	```c
+	```
 	"goUIDtoGUID" callExtension "uid";
 	```
 	
